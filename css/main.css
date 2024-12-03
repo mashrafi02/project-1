@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+
+.container{
+    width: 1340px;
+    margin: 0 auto;
+}
+
+/* =============================common css end =============================*/
+.heading .item{
+    padding-top: 143px;
+}
+.heading .item h4{
+    color: #289BDE;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.heading .item h2{
+    color: #071B27;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.heading .item p{
+    color: #666;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.2px;
+padding: 0 357px;
+padding-bottom: 60px;
+}
+
+.about-item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.about-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+
+.about-item .text{
+    width: 50%;
+   
+}
+.about-item .text h2{
+    color: #07003B;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 182px;
+}
+.about-item .text p{
+    font-size: 20px;
+    line-height: 41px;
+}
+.about-item .text p>span{
+    color: #289BDE;
+}
+.about-item .img{
+    width: 40%;
+}
+
+.about-item .img img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.about-main{
+    display: flex;
+    flex-direction: column;
+}
+/*  ========================= about css end =========================*/
+#offer{
+    margin-top: 157px;
+    padding: 150px 0;
+    background: #071B27;;
+}
+.offer .offer-heading{
+    margin-bottom: 60px;
+    margin-left: 40px;
+}
+.offer .offer-heading p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.offer .offer-heading h4{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+.offer .offer-content {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.offer .offer-content .item{
+    width: 45%;
+    
+}
+.offer .offer-content .item .item-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.offer .offer-content ul li span{
+    color: #289BDE;
+}
+.offer .offer-content ul li{
+    color: #E6E6E6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.offer .offer-content .m40{
+    margin: 40px 0;
+}
+
+
+/* =============================offer css end =============================*/
+#mission{
+    margin: 150px 0;
+}
+.mission .heading h4{
+    color: #071B27;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    width: 451px;
+    margin-bottom: 54px;
+}
+.mission .content {
+    display: flex;
+    justify-content: space-around;
+}
+.mission .content .main-mission{
+    width: 45%;
+}
+.mission .content .main-mission .item img{
+    margin-top: 10px !important;
+}
+
+.mission .content .main-mission .item p{
+    display: inline-block;
+    color: #071B27;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+.mission .content .main-mission .item h6{
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.16px;
+    margin-bottom: 25px;
+}
+
+.mission .content .main-image{
+    width: 50%;
+    
+}
+
+/* =============================Mission css end =============================*/
