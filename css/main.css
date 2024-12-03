@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', serif;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+.container {
+  width: 1340px;
+  margin: 0 auto;
+}
+.subtitle {
+  color: #289bde;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  color: #071b27;
+  text-align: center;
+}
 /* =======Community Part Start here ======= */
 
 #community {
