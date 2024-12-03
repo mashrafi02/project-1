@@ -1,0 +1,318 @@
+/* =======Community Part Start here ======= */
+
+#community {
+  margin-top: 144px;
+}
+.community_heading p {
+  width: 622px;
+  text-align: center;
+  margin-top: 22px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #666;
+}
+.community_content_heading {
+  display: flex;
+  column-gap: 6px;
+  margin-top: 129px;
+}
+.community_wraper {
+  display: flex;
+  justify-content: space-between;
+}
+.community_content_heading h4 {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.26px;
+  color: #071b27;
+  margin-bottom: 37px;
+}
+.community_content_details_name {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+.community_content_details_wraper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.community_content_details_name i {
+  border: 1px solid #289bde;
+  border-radius: 5px;
+  height: 24px;
+  width: 24px;
+  background-color: #289bde;
+  text-align: center;
+  line-height: 24px;
+}
+.community_content_details_name h5 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: normal;
+  color: #071b27;
+}
+.community_content_details_wraper .community_content_details_deta p {
+  width: 405px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: normal;
+  color: #666;
+  margin-top: 9px;
+  margin-left: 33px;
+}
+.community_content2 {
+  width: 294px;
+  height: 574px;
+  overflow: hidden;
+  margin-top: 60px;
+}
+.community_content2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.community_join_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+.community_join_btn a {
+  display: inline-block;
+  padding: 13px 28px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #289bde;
+  border: 1px solid #289bde;
+}
+/* =======Community Part end here ======= */
+
+/* =======contact Part start here ======= */
+.contact_heading p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #666;
+  width: 616px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.contact_wraper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 140px;
+}
+.contact_details h3 {
+  width: 380px;
+  color: var(--Black, #12141d);
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 52px;
+}
+.contact_details p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000;
+}
+.contact_details p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 445px;
+  margin-top: 22px;
+  margin-bottom: 14px;
+}
+.contact_details span i {
+  margin-right: 9px;
+  height: 15px;
+  width: 20px;
+}
+.contact_details span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--Black, #12141d);
+  margin-top: 15px;
+}
+.contact_method .box {
+  width: 498px;
+  padding: 43px 36px 57px 36px;
+  border-radius: 10px;
+  background: var(--01, #fff);
+  box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.08);
+}
+.contact_method .box h2 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
+  color: var(--Black, #12141d);
+  width: 376px;
+  margin-bottom: 22px;
+  text-align: center;
+  margin: 0 auto;
+}
+.contact_method .box form label {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--Black, #12141d);
+}
+.contact_method .box form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #dde1e0;
+  background: var(--01, #fff);
+  margin-bottom: 17px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.contact_method .box form button {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+  padding: 16px 20px;
+  background-color: #289bde;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #289bde;
+  margin-top: 40px;
+}
+.contact_method .box form button i {
+  margin-left: 9px;
+}
+
+/* =======contact Part end here ======= */
+
+/* =======footer Part start here ======= */
+footer {
+  background: url(../images/footer.png) no-repeat center;
+  background-size: cover;
+  padding: 70px 0;
+}
+footer .box {
+  width: 851px;
+  height: 444px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 68px;
+}
+footer .box .box_wraper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .box h3 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: normal;
+  color: #071b27;
+  text-align: center;
+  margin-top: 71px;
+}
+footer .box h5 {
+  color: #071b27;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-top: 12px;
+}
+footer .box p{
+  width: 544px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color:#666;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+footer .box .contact_details{
+  display: flex;
+  justify-content: center;
+  column-gap: 26px;
+  margin-top: 27px;
+}
+footer .box span{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+footer .box span i{
+  width: 20px;
+  height: 15px;
+  margin-right: 10px;
+}
+footer .box a{
+  padding: 13px 28px;
+  color:#fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  background-color: #289BDE;
+  border-radius: 5px;
+  border: 1px solid #289BDE;
+  margin: 0 auto;
+  margin-top: 41px;
+  
+}
+footer .line{
+  display:flex;
+  align-items: center;
+  height: 94px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 33px;
+}
+.footer_wraper{
+  display: flex;
+  justify-content: space-between;
+}
+.line .container .f_logo p{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+  color:#fff;
+}
+.term{
+  display: flex;
+  column-gap: 17px;
+  align-items: center;
+}
+.term p{
+  font-size: 16px;
+  font-weight: 500;
+  color:#fff;
+  line-height: normal;
+}
+.f_icon{
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+.f_text{
+  display: flex;
+  justify-content: center;
+}
+.f_text p{
+  
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  color:#fff;
+}
+/* =======footer Part end here ======= */
